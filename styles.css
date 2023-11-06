@@ -1,7 +1,7 @@
 body{ 
-    width: 100%
+    width: 100%;
     height: 100%;
-    background-color:dimgrey;
+    background-color: beige;
 }
 
 h1 { 
@@ -16,7 +16,7 @@ h2 {
          
     }
 p{    
-    color:black;
+    color:firebrick;
           font-size: 2em;
           margin-left: 20px;
     }
@@ -86,17 +86,24 @@ video{
     position: relative;
     display: flex;
     max-width: 1200px;
-    height: 200px;
+    height: 120px;
     background-color: aliceblue;
-    
-    
+    min-width: 500px;
+    overflow: scroll;
+    border: solid 2px;
+    margin-left: 20px;
+   
+}
+.container:hover{
+    transition: .5s;
+    border-color:  red;
+    position: relative;
 }
 .image-box{
     display: flex;
     width: 150px;
     height: 100px;
-    position: relative;
-    
+    position: relative;    
     
 }
 .image1-box{
@@ -106,7 +113,8 @@ video{
     transition: .5;
     cursor: pointer;
     border: solid 2px;
-    margin-left: 20px;
+    border-top: none;
+    
     
     
     
@@ -119,6 +127,8 @@ video{
     cursor: pointer;
     margin-left: 2px;
     border: solid 2px;
+    border-top: none;
+    
     
     
 }
@@ -131,7 +141,7 @@ video{
     cursor: pointer;
     margin-left: 2px;
     border: solid 2px;
-    
+    border-top: none;
     
 }
 .image4-box {
@@ -142,6 +152,7 @@ video{
     cursor: pointer;
     border: solid 2px;
     margin-left: 2px;
+    border-top: none;
     
     
 }
@@ -153,6 +164,7 @@ video{
     cursor: pointer;
     border: solid 2px;
     margin-left: 2px;
+    border-top: none;
 }
 .image6-box {
     width: 150px;
@@ -162,21 +174,27 @@ video{
     cursor: pointer;
     border: solid 2px;
     margin-left: 2px;
+    border-top: none;
 }
+
+
 .lorem {
-    width: 900px;
+    
     height: 100px;
     display: flex;
     border-color: red;
     transition: .5;
     cursor: pointer;
     border: solid 2px;
-    margin-left: 30px;
-    
-    
+    margin-left: 20px;
+    max-width: max-content;
+    min-width: 550px;
+    padding-left: 20px;
+    cursor: pointer;
+    margin-top: 20px;
     
 }
-.image-box:hover {
+.lorem:hover {
      border-color: red;
      transition: .5s;
      
@@ -193,7 +211,7 @@ video{
     
 }
 .btn:hover{
-        background-color: forestgreen;
+        background-color: red;
 
 }
 .botao {
@@ -202,18 +220,21 @@ video{
     width: 90px;
     position: relative;
     transition: .5;
-    background-color:darkslategray;
+    background-color:darkgreen;
     color: white;
     text-align: center;
     text-transform: uppercase;
     border: 1px;
-    margin-left: 20px;
+    margin-left: 50px;
     cursor: pointer;
+    
+    
+    
     
 }
 .botao:hover {
     color: white;
-    background:green;
+    background:red;
 }
 .link{
       color: darkred;
