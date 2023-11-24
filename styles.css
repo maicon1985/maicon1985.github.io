@@ -2,6 +2,7 @@ body{
     width: 100%;
     height: 100%;
     background-color: beige;
+    margin: 0; padding: 0;
 }
 
 h1 { 
@@ -73,7 +74,12 @@ video{
    position: relative;
    padding-top: 20px;
    margin-left: 20px;
-   padding-right: 10px;
+   padding-right:5px;
+   transition: .5s;
+   color: blue;
+   background-color: darkcyan;
+   
+   
    
    }
 .lista:hover{
@@ -82,40 +88,45 @@ video{
         position: relative;
 
 }
+
+.li{
+    transition: .5s;
+    color: blue
+
+}
 .container{
-    position: relative;
     display: flex;
-    max-width: 1200px;
-    height: 120px;
-    background-color: aliceblue;
-    min-width: 500px;
-    overflow: scroll;
+    justify-content: space-between;
+    position: relative;
+    max-width: 77vw;
+    max-height: min-content;
+    background-color: black;
+    overflow: hidden;
     border: solid 2px;
     margin-left: 20px;
-   
+    box-sizing: border-box;
+    
+    
 }
 .container:hover{
     transition: .5s;
     border-color:  red;
     position: relative;
 }
-.image-box{
-    display: flex;
-    width: 150px;
-    height: 100px;
-    position: relative;    
-    
-}
+
+
+
+
 .image1-box{
     width: 150px;
     height: 100px;
     border-color: red;
     transition: .5;
     cursor: pointer;
-    border: solid 2px;
-    border-top: none;
-    
-    
+    margin-left: 1px;
+    border: solid 1px;
+    padding-top: 2px;
+    padding-bottom: 1px;
     
     
 }
@@ -125,10 +136,10 @@ video{
     border-color: red;
     transition: .5;
     cursor: pointer;
-    margin-left: 2px;
-    border: solid 2px;
-    border-top: none;
-    
+    margin-left: 1px;
+    border: solid 1px;
+    padding-top: 2px;
+    padding-bottom: 1px;
     
     
 }
@@ -139,9 +150,9 @@ video{
     border-color: red;
     transition: .5;
     cursor: pointer;
-    margin-left: 2px;
-    border: solid 2px;
-    border-top: none;
+    margin-left: 1px;
+    border: solid 1px;
+    padding-top: 2px;
     
 }
 .image4-box {
@@ -150,10 +161,10 @@ video{
     border-color: red;
     transition: .5;
     cursor: pointer;
-    border: solid 2px;
+    border: solid 1px;
     margin-left: 2px;
     border-top: none;
-    
+    padding-top: 2px;
     
 }
 .image5-box {
@@ -162,9 +173,10 @@ video{
     border-color: red;
     transition: .5;
     cursor: pointer;
-    border: solid 2px;
+    border: solid 1px;
     margin-left: 2px;
     border-top: none;
+    padding-top: 2px;
 }
 .image6-box {
     width: 150px;
@@ -172,9 +184,11 @@ video{
     border-color: red;
     transition: .5;
     cursor: pointer;
-    border: solid 2px;
+    border: solid 1px;
     margin-left: 2px;
     border-top: none;
+    padding-top: 2px;
+    padding-right: 2px;
 }
 
 
@@ -187,11 +201,11 @@ video{
     cursor: pointer;
     border: solid 2px;
     margin-left: 20px;
-    max-width: max-content;
-    min-width: 550px;
-    padding-left: 20px;
+    max-width: 77vw;
     cursor: pointer;
     margin-top: 20px;
+    padding-left: 20px;
+    box-sizing: border-box;
     
 }
 .lorem:hover {
